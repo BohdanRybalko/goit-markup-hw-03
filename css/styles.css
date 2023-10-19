@@ -79,7 +79,9 @@ li{
 .header-nav-mod {
             list-style: none;
             display: flex;
-            gap: 40px;
+            gap: 24px;
+            display: flex;
+
             
            
 }
@@ -177,6 +179,8 @@ li{
     letter-spacing: 0.02em;
     color: var(--brand-color);
     margin-bottom: 8px;
+    text-align: center;
+    
     
 }
 
@@ -185,6 +189,7 @@ li{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 .section-img-one{
     font-size: 36px;
@@ -210,13 +215,22 @@ li{
 
 .section-four{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .section-img-two{
      background-color:#FFFFFF;
+    margin-bottom: 72px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
  .footer-one{
     background-color:var(--brand-color);
+
  }
+ .posada{
+    padding: 32px 0;
+ }
+ 
  .footer-p{
     line-height: 1.5;
     color:#F4F4FD;

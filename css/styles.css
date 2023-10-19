@@ -25,6 +25,14 @@ li{
     padding: 0;
 
 }
+.section-ul-one{
+    display: flex;
+    gap: 24px;
+   
+}
+.item{
+   width:calc((100% - 72px) / 4);
+}
 .container{
     width: 1158px;
         margin: 0 auto;
@@ -168,6 +176,7 @@ li{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--brand-color);
+    margin-bottom: 8px;
 }
 
 .section-p{

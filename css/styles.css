@@ -177,6 +177,7 @@ li{
     letter-spacing: 0.02em;
     color: var(--brand-color);
     margin-bottom: 8px;
+    
 }
 
 .section-p{
@@ -192,7 +193,20 @@ li{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--brand-color);
+    margin-bottom: 72px;
+    
 }
+.section-doing{
+   
+    padding-bottom: 120px;
+}
+ .section-img-ul{
+    display: flex;
+    gap: 24px;
+ }
+ .img-section{
+   width: calc((100% - 48px) / 3);
+ }
 
 .section-four{
     background-color: #F4F4FD;

@@ -16,15 +16,16 @@ body{
     border-bottom: 1px solid #e7e9fc;
    
 }
-.container{
+.div-container{
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
+    width: 1158px;
 }
 .header-nav{
     display: flex;
     align-items: center;
-    width: 1158px;
+    
 }
 .header-logo{ 
     font-family: "Raleway", sans-serif;

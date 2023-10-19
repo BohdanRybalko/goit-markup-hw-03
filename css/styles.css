@@ -16,11 +16,15 @@ body{
     border-bottom: 1px solid #e7e9fc;
    
 }
-.div-container{
+li{
+    margin-right: 0;
+}
+.container{
+    width: 1158px;
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
-    width: 1158px;
+    
 }
 .header-nav{
     display: flex;

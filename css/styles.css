@@ -55,7 +55,7 @@ body{
 .header-nav-mod {
             list-style: none;
             display: flex;
-            gap: 40px;
+            
             
            
 }
@@ -78,13 +78,14 @@ body{
     font-style: normal;
     display: flex;
 }
-.contact{
+.contact
+{
 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    
+    gap: 40px;
     color: #434455;
 }
 .contact:hover{color: var(--section-hover-focus);

@@ -19,11 +19,22 @@ body{
 li{
     margin-right: 0;
 }
-.div-container{
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
     width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+}
+.div-container{
     display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
+    align-items: center;
+
     
 }
 .header-nav{
@@ -44,6 +55,7 @@ li{
 }
 .header-address{
     font-style: normal;
+    margin-left: auto;
 }
 .studio{
     color:var(--brand-color);
@@ -72,6 +84,7 @@ li{
         text-decoration: none;
         color: var(--brand-color);
         padding: 24px 0;
+        display: block;
 
     }
     .header-ads:hover{color: var(--section-hover-focus);
@@ -81,6 +94,7 @@ li{
 .address-ul{
     font-style: normal;
     display: flex;
+    gap: 40px;
 }
 .contact
 {

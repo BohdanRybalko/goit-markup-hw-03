@@ -208,6 +208,7 @@ li{
     letter-spacing: 0.02em;
     color: var(--brand-color);
     margin-bottom: 8px;
+    text-align: center;
     
     
     
@@ -218,8 +219,15 @@ li{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    
 
+}
+.section-p-name{
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
 }
 .section-img-one{
     font-size: 36px;

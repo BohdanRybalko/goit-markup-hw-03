@@ -286,6 +286,7 @@ li{
 }
 .portfolio-img-a{
     text-decoration: none;
+    width: calc((100% - 48px) / 3);
 }
 .footer-span{
     font-weight: 500;
@@ -299,6 +300,19 @@ li{
 .main-section{
     padding-top: 96px;
     padding-bottom: 120px;
+}
+.portfolio-li{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+.portfolio-li-div{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
     

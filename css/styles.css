@@ -256,18 +256,24 @@ li{
     letter-spacing: 0.04em;
     color: #4d5ae5;
     background-color: #F4F4FD;
-}
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+   
+    }
 
 .section-portfolio:focus{
         color: #FFFFFF; 
         cursor: pointer;
         background-color: #404BBF;
+        border: 1px solid transparent;
 }
 
 .section-portfolio:hover{
         color: #FFFFFF;
         cursor: pointer;
         background-color: #404BBF;
+        border: 1px solid transparent;
 }
 .portfolio-ul-img{
     list-style: none;
@@ -284,3 +290,15 @@ li{
     text-decoration: none;
     color: #f4f4fd;
 }
+.main-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.portfolio-ul-port{
+display: flex;
+justify-content: center;
+margin-bottom: 72px;
+    gap: 24px;
+}
+
+    

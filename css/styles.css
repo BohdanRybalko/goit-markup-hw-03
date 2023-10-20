@@ -68,6 +68,8 @@ li{
     text-transform: uppercase;
     text-decoration: none; 
     margin-right: 76px ;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .header-address{
     font-style: normal;
@@ -234,6 +236,7 @@ li{
 }
  .footer-one{
     background-color:var(--brand-color);
+    padding: 100px 0;
 
  }
  
@@ -243,6 +246,7 @@ li{
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px
  }
 .section-portfolio{
     font-family: "Roboto", sans-serif;

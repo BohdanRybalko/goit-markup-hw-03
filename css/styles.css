@@ -283,6 +283,10 @@ li{
 }
 .portfolio-ul-img{
     list-style: none;
+    display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
 }
 .portfolio-img-a{
     text-decoration: none;
@@ -301,13 +305,7 @@ li{
     padding-top: 96px;
     padding-bottom: 120px;
 }
-.portfolio-li{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
 
-}
 .portfolio-li-div{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
